@@ -64,6 +64,7 @@
             </div>
             <h1 class="hero-name">Björn Stragier</h1>
             <p class="hero-tagline">Cognitive Robotics Engineer</p>
+            <p class="hero-subtagline">Machine Perception | Control | Data Analysis</p>
 
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/björn-stragier-a0b523232" target="_blank" rel="noopener noreferrer"
@@ -103,7 +104,7 @@
             <h2 class="section-title">About Me</h2>
             <div class="content-wrapper">
                 <p>
-                    Hello! I'm Bjorn and I’m an engineer working across robotics, perception and intelligent systems.
+                    Hi there! I'm Björn and I’m an engineer working across robotics, perception and intelligent systems.
                     I'm currently completing an MSc in Cognitive Robotics at TU Delft, but have a background in
                     Mechanical Engineering from MIT and the University of Pretoria. I enjoy solving challenging problems
                     that sit between software, data, and the physical world.
@@ -227,6 +228,84 @@
                 </div>
             </div>
         </section>
+
+        <section id="projects" class="section projects-section">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-tile">
+                    <img src="Images/Projects/Buoy.png" alt="Autonomous Buoy for Ocean Acidification"
+                        class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Autonomous Buoy for Ocean Acidification</h3>
+                        <p class="project-desc">An example of one of the autonomous buoys that I worked on as an
+                            undergraduate researcher while at MIT.</p>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <img src="Images/Projects/BanditAlgorithms.png" alt="Multi-Armed Bandit Algorithms"
+                        class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Multi-Armed Bandit Algorithms</h3>
+                        <p class="project-desc">Investigated classical and deep learning–based bandit algorithms using
+                            provided datasets, comparing exploration–exploitation strategies and performance trade-offs.
+                        </p>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <img src="Images/Projects/Deep_Q_Learning.png" alt="Deep Q-Learning for Lunar Lander"
+                        class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Deep Q-Learning for Lunar Lander</h3>
+                        <p class="project-desc">Implemented and evaluated a Deep Q-learning architecture to train an
+                            agent to land a lunar module safely and in a controlled manner within a simulated
+                            environment.</p>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <img src="Images/Projects/Detection_rsp.png" alt="Pedestrian Detection in ROS2" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Pedestrian Detection in ROS2</h3>
+                        <p class="project-desc">Developed two C++ ROS2 nodes within a larger robotic system: one for
+                            mobile base control and one using OpenCV to detect pedestrians in real time.</p>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <img src="Images/Projects/MDPI.png" alt="Multi-Sensor Pedestrian Detection" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Multi-Sensor Pedestrian Detection (MDPI)</h3>
+                        <p class="project-desc">Designed a perception algorithm using camera, radar, and LiDAR data to
+                            detect pedestrians in the View-of-Delft dataset.</p>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <img src="Images/Projects/MDPII.png" alt="Deep Learning–Based Pedestrian Detection"
+                        class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Deep Learning–Based Pedestrian Detection (MDPII)</h3>
+                        <p class="project-desc">Contributed to the design of a deep learning architecture for pedestrian
+                            detection on the View-of-Delft dataset, achieving second place out of 33 groups in
+                            performance improvement.</p>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <img src="Images/Projects/PDM.png" alt="Path Planning with RRT*" class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Path Planning with RRT*</h3>
+                        <p class="project-desc">Implemented RRT* path planning algorithms to control both a mobile base
+                            and a manipulator in a simulated robotics environment.</p>
+                    </div>
+                </div>
+                <div class="project-tile">
+                    <img src="Images/Projects/qlearning_average_thealley.png" alt="Classical Q-Learning Analysis"
+                        class="project-img">
+                    <div class="project-overlay">
+                        <h3 class="project-title">Classical Q-Learning Analysis</h3>
+                        <p class="project-desc">Analyzed the performance and convergence behavior of a classical
+                            Q-learning algorithm in an artificial simulation environment.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <section id="skills" class="section skills-section">
             <h2 class="section-title">Skills</h2>
             <div class="skills-container">
@@ -267,6 +346,12 @@
             <p class="footer-copyright">&copy; 2026 Bjorn Stragier</p>
         </div>
     </footer>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
 
     <script src="js/script.js"></script>
 </body>
