@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bjorn Stragier</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-overlay"></div>
+        <div class="nav-wrapper">
+            <div class="nav-container">
+                <div class="logo">Björn Stragier</div>
+                <nav class="nav-links">
+                    <div class="dropdown">
+                        <button class="dropbtn">About
+                            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round">
+                                <path d="M6 9l6 6 6-6" />
+                            </svg>
+                        </button>
+                        <div class="dropdown-content">
+                            <a href="#about">About Me</a>
+                            <a href="#experience">Experience</a>
+                            <a href="#education">Education</a>
+                            <a href="#skills">Skills</a>
+                        </div>
+                    </div>
+                    <a href="#projects">Projects</a>
+                    <button id="theme-toggle" aria-label="Toggle Night Mode">
+                        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="5"></circle>
+                            <line x1="12" y1="1" x2="12" y2="3"></line>
+                            <line x1="12" y1="21" x2="12" y2="23"></line>
+                            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                            <line x1="1" y1="12" x2="3" y2="12"></line>
+                            <line x1="21" y1="12" x2="23" y2="12"></line>
+                            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                        </svg>
+                        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                        </svg>
+                    </button>
+                </nav>
+            </div>
+        </div>
+
+        <div class="hero-content">
+            <div class="image-wrapper">
+                <img src="Images/ProfilePic.jpeg" alt="Bjorn Stragier" class="profile-pic">
+            </div>
+            <h1 class="hero-name">Björn Stragier</h1>
+            <p class="hero-tagline">Cognitive Robotics Engineer</p>
+
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/björn-stragier-a0b523232" target="_blank" rel="noopener noreferrer"
+                    class="social-btn linkedin">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/btstragier" target="_blank" rel="noopener noreferrer"
+                    class="social-btn github">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                    GitHub
+                </a>
+                <a href="mailto:btstragier@gmail.com" class="social-btn email">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    Email
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="about" class="section about-section">
+            <h2 class="section-title">About Me</h2>
+            <div class="content-wrapper">
+                <p>
+                    Hello! I'm Bjorn and I’m an engineer working across robotics, perception and intelligent systems.
+                    I'm currently completing an MSc in Cognitive Robotics at TU Delft, but have a background in
+                    Mechanical Engineering from MIT and the University of Pretoria. I enjoy solving challenging problems
+                    that sit between software, data, and the physical world.
+                </p>
+                <p>
+                    Outside of engineering, I’m interested in history, business, fitness, and tennis. Originally from
+                    South Africa, I’ve studied and worked internationally. Please feel free to reach out to me on
+                    LinkedIn or via email should you have any questions or would like a copy of my CV.
+                </p>
+            </div>
+        </section>
+
+        <section id="education" class="section education-section">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-card">
+                    <img src="Images/Tu_delft_logo.png" alt="TU Delft Logo" class="edu-logo">
+                    <div class="edu-details">
+                        <h3 class="edu-school">Delft University of Technology</h3>
+                        <p class="edu-degree">MSc in Cognitive Robotics</p>
+                        <div class="edu-meta">
+                            <span class="edu-grade">GPA: 8.3/10</span>
+                            <span class="edu-dates">Sep 2024 - July 2026</span>
+                        </div>
+                        <ul class="edu-list">
+                            <li>Focus on perception, control, and human–robot interaction.</li>
+                            <li>Strong emphasis on spatial AI and embodied intelligence.</li>
+                            <li>Thesis and internship completed in industry.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <img src="Images/MIT_logo.png" alt="MIT Logo" class="edu-logo mit-logo">
+                    <div class="edu-details">
+                        <h3 class="edu-school">Massachusetts Institute of Technology</h3>
+                        <p class="edu-degree">AeroAstro Engineering Exchange Student</p>
+                        <div class="edu-meta">
+                            <span class="edu-grade">GPA: 5.0/5.0</span>
+                            <span class="edu-dates">Jan 2022 - Dec 2022</span>
+                        </div>
+                        <ul class="edu-list">
+                            <li>Advanced coursework in thermofluids, manufacturing, and aeronautics.</li>
+                            <li>Member of MIT Motorsports (Formula Student Team).</li>
+                            <li>Completed an advanced negotiation course designed jointly by MIT and Harvard.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <img src="Images/Pretoria_logo.png" alt="University of Pretoria Logo" class="edu-logo">
+                    <div class="edu-details">
+                        <h3 class="edu-school">University of Pretoria</h3>
+                        <p class="edu-degree">BEng Mechanical Engineering</p>
+                        <div class="edu-meta">
+                            <span class="edu-grade">GPA: 84/100</span>
+                            <span class="edu-dates">Jan 2020 - Nov 2023</span>
+                        </div>
+                        <ul class="edu-list">
+                            <li>Focus on simulation, manufacturing, and aeronautics.</li>
+                            <li>Selected for highly competitive MIT exchange program.</li>
+                            <li>Elected team lead for a community service engineering project.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience" class="section experience-section">
+            <h2 class="section-title">Experience</h2>
+            <div class="education-grid"> <!-- Reusing grid layout for consistency -->
+                <div class="education-card">
+                    <img src="Images/Hilti.jpg" alt="Hilti AG Logo" class="edu-logo">
+                    <div class="edu-details">
+                        <h3 class="edu-school">Hilti AG</h3>
+                        <p class="edu-degree">Computer Vision & AI Intern</p>
+                        <div class="edu-meta">
+                            <span class="edu-location">Schaan, Liechtenstein</span>
+                            <span class="edu-dates">Aug 2025 - July 2026</span>
+                        </div>
+                        <ul class="edu-list">
+                            <li>Research and development of AI solutions for construction environments.</li>
+                            <li>Designed a spatial understanding system improving accuracy by 89%.</li>
+                            <li>Completing MSc thesis in collaboration with industry team.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <img src="Images/MIT_logo.png" alt="MIT Logo" class="edu-logo mit-logo">
+                    <div class="edu-details">
+                        <h3 class="edu-school">Massachusetts Institute of Technology</h3>
+                        <p class="edu-degree">Student Researcher</p>
+                        <div class="edu-meta">
+                            <span class="edu-location">Massachusetts, USA</span>
+                            <span class="edu-dates">Mar 2022 - Dec 2022</span>
+                        </div>
+                        <ul class="edu-list">
+                            <li>Worked on autonomous buoy systems for ocean acidification research.</li>
+                            <li>Integrated additional sensors and developed supporting algorithms.</li>
+                            <li>Designed and ran experiments to improve sensor robustness under noisy conditions.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <img src="Images/Lonsa.jpg" alt="Lonsa Everite Logo" class="edu-logo">
+                    <div class="edu-details">
+                        <h3 class="edu-school">Lonsa Everite</h3>
+                        <p class="edu-degree">Manufacturing Engineer Intern</p>
+                        <div class="edu-meta">
+                            <span class="edu-location">Gauteng, South Africa</span>
+                            <span class="edu-dates">Jan 2021 - Feb 2021</span>
+                        </div>
+                        <ul class="edu-list">
+                            <li>Hands-on exposure to plant maintenance and operations.</li>
+                            <li>Analyzed spare-parts availability and identified process bottlenecks.</li>
+                            <li>Internship duration limited due to COVID-19 restrictions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills" class="section skills-section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Operating Systems</h3>
+                    <p>Linux Ubuntu, Windows, macOS</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <p>Python, C++, Bash</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Libraries</h3>
+                    <p>PyTorch, TensorFlow, OpenCV, ROS2</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Version Control</h3>
+                    <p>Git</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Writing</h3>
+                    <p>LaTeX, Office</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-separator"></div>
+        <div class="footer-content">
+            <div class="social-links footer-links">
+                <a href="https://www.linkedin.com/in/björn-stragier-a0b523232" target="_blank" rel="noopener noreferrer"
+                    class="social-btn linkedin">LinkedIn</a>
+                <a href="https://github.com/btstragier" target="_blank" rel="noopener noreferrer"
+                    class="social-btn github">GitHub</a>
+                <a href="mailto:btstragier@gmail.com" class="social-btn email">Email</a>
+            </div>
+            <p class="footer-copyright">&copy; 2026 Bjorn Stragier</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
