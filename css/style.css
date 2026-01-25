@@ -323,19 +323,19 @@ html {
 
 .hero-tagline {
     font-size: 1.1rem;
-    color: var(--text-secondary);
-    font-weight: 400;
+    color: var(--text-primary);
+    font-weight: 500;
     position: relative;
     display: inline-block;
 }
 
 .hero-subtagline {
     font-size: 0.95rem;
-    color: var(--text-secondary);
-    font-weight: 500;
+    color: var(--text-primary);
+    font-weight: 600;
     margin-top: 0.5rem;
     letter-spacing: 0.5px;
-    opacity: 0.9;
+    opacity: 1;
 }
 
 .hero-tagline::after {
